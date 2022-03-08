@@ -1,0 +1,51 @@
+#containerMain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 70px;
+    color: #555;
+    height: 440px;
+}
+#textlevl3
+{
+    font-size: 10pt;
+    margin-top: -20px;
+}
+#containerInput
+{
+    margin-top: 40px;
+}
+label
+{
+    font-weight: bolder;
+    font-size: 10pt;
+}
+input
+{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-top:10px;
+}
+#btnSearch
+{
+    position: relative;
+    top: -30px;
+    right: -480px;
+    background-color: #fff;
+    border: none;
+    z-index: 9999999;
+}
+#containerFooter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -110px;
+    font-size: 10pt;
+    color: #555;
+}
