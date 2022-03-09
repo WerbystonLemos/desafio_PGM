@@ -1,0 +1,66 @@
+body
+{
+    background: linear-gradient( #fff, #eee);
+}
+#containerMain
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+#btnVoltar
+{
+    width: 80%;
+}
+#btnVoltar * 
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #9e76b9;
+}
+#containerMainSecundary
+{
+    width: 77%;
+    padding: 0 30px;
+    border-radius: 20px;
+    background: #fff;
+}
+.nameMovie
+{
+    font-weight: bolder;
+}
+.cotnainerMovie
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.capaMovie
+{
+    margin-right: 30px;
+}
+.capaMovie > img
+{
+    width: 180px;
+    border-radius: 20px;
+}
+.containerDescriptionMovie
+{
+    /* width: 50%; */
+    padding: 0 30px;
+}
+.originalTitleMovie
+{
+    line-height: 0px;
+    margin-bottom: 30px;
+}
+.sinopsText
+{
+    margin-bottom: 30px;
+}
+.avaliacao
+{
+    line-height: 0px;
+    margin-bottom: 30px;
+}
